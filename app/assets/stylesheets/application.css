@@ -1,0 +1,83 @@
+/* Style for the product detail section */
+.product-detail {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .product-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
+  /* Style for the inventory details */
+  .inventory-details {
+    margin-top: 20px;
+  }
+  
+  /* Style for action links */
+  .product-actions {
+    margin-top: 20px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .back-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-link {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .edit-link:hover {
+    background-color: #218838;
+  }
+  
+  .destroy-button {
+    display: inline-block;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .destroy-button:hover {
+    background-color: #c82333;
+  }
+  
+  .destroy-button:focus {
+    outline: none;
+  }
+  
